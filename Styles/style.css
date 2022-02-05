@@ -83,7 +83,7 @@ cursor: pointer;
 
 .hero {
   background-image:  linear-gradient(rgba(0,0,0,0.7),
-  rgba(0,0,0,0.7)), url(/Images/image_header.jpg);
+  rgba(0,0,0,0.7)), url(../Images/image_header.jpg);
   background-size: cover;
   height: 707px;
   position: relative;
@@ -115,13 +115,14 @@ cursor: pointer;
 }
 
 .button-one {
-  padding: 19px 42px 20px 41px;
+  padding: 20px 2px;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
   height: 51px;
   width: 207px;
 }
 
 .button-two {
+  padding: 20px 2px;
   height: 51px;
   width: 207px;
   background: none;
