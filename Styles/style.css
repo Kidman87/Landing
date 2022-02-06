@@ -83,7 +83,7 @@ cursor: pointer;
 
 .hero {
   background-image:  linear-gradient(rgba(0,0,0,0.7),
-  rgba(0,0,0,0.7)), url(/Images/image_header.jpg);
+  rgba(0,0,0,0.7)), url(../Images/image_header.jpg);
   background-size: cover;
   height: 707px;
   position: relative;
@@ -122,10 +122,23 @@ cursor: pointer;
 }
 
 .button-two {
+  padding: 19px 23px 20px 22px;
   height: 51px;
   width: 207px;
   background: none;
   border-color: white;
   border-style: solid;
   border-width: 1px;
+}
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0px;
+  font-family: "YesevaOne-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
 }
