@@ -130,7 +130,11 @@ cursor: pointer;
   border-style: solid;
   border-width: 1px;
 }
-.main-navigation {
+.projects{
+  margin-top: -15px;
+  background-color: black;
+}
+.nav-project {
   display: flex;
   justify-content: space-between;
   padding-inline-start: 0px;
@@ -141,4 +145,56 @@ cursor: pointer;
   line-height: 19px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.mobile {
+  display: flex;
+  position: static;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading-projects {
+  font-family: "YesevaOne-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.text-project {
+  font-family: "NunitoSans Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.heading{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  
+  color: #FFFFFF;
+  
+}
+.heading-information{
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #E3B873
+}
+.info-top {
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
