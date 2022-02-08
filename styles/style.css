@@ -14,14 +14,11 @@
 }
 
 body {
-  color: white;
+  margin: 0;
   font-family: "NunitoSans Regular", Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
-*{
-  margin: 0px;
-  padding: 0px;
-}
+
 body * {
   box-sizing: border-box;
   text-decoration: none;
@@ -118,88 +115,18 @@ cursor: pointer;
 }
 
 .button-one {
-  padding: 19px 42px 20px 41px;
+  padding: 20px 2px;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
   height: 51px;
   width: 207px;
 }
 
 .button-two {
-  padding: 19px 23px 20px 22px;
+  padding: 20px 2px;
   height: 51px;
   width: 207px;
   background: none;
   border-color: white;
   border-style: solid;
   border-width: 1px;
-}
-.projects{
-  
-  background-color: black;
-}
-.nav-project {
-  padding: 107px;
-  display: flex;
-  justify-content: flex-end;
-  padding-inline-start: 0px;
-  font-family: "YesevaOne-Regular";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.photo-room {
-  padding: 45px;
-  justify-content: flex-end;
-  display: flex;
-  position: static;
-}
-
-.projects-content {
-  display: flex;
-  justify-content: space-around;
-}
-
-.heading-projects {
-  font-family: "YesevaOne-Regular";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 27px;
-  line-height: 37px;
-  letter-spacing: -0.07em;
-  text-transform: uppercase;
-  color: #E3B873;
-}
-.text-project {
-  font-family: "NunitoSans Regular";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 27px;
-  color: #FFFFFF;
-}
-.text-project{
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 27px;
-  color: #FFFFFF;
-  
-}
-.heading-information{
-font-family: Yeseva One;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-text-transform: uppercase;
-color: #E3B873
-}
-.info-top {
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
